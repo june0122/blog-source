@@ -1,0 +1,156 @@
+version: 5.1.0
+variant: default
+logo: /img/logo.svg
+head:
+    favicon: /img/logo.svg
+    manifest:
+        name: 카미유 테크 블로그
+        short_name: 카미유 테크 블로그
+        start_url:
+        theme_color:
+        background_color:
+        display: standalone
+        icons:
+            -
+                src: ''
+                sizes: ''
+                type:
+    open_graph:
+        title:
+        type: blog
+        url:
+        image: /img/og_image.png
+        site_name: 카미유 테크 블로그
+        author: KAMIYU
+        description:
+        twitter_card: summary
+        twitter_id:
+        twitter_site:
+        google_plus:
+        fb_admins:
+        fb_app_id:
+    structured_data:
+        title:
+        description:
+        url:
+        author: KAMIYU
+        publisher: 카미유 테크 블로그
+        publisher_logo: /img/logo.svg
+        image:
+    meta:
+        - ''
+    rss: /rss2.xml
+navbar:
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        Guides: /guides
+        About: /about
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/june0122
+footer:
+    copyright: © 2021 KAMIYU
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/june0122
+article:
+    highlight:
+        theme: atom-one-light
+        clipboard: true
+        fold: unfolded
+    readtime: false
+    update_time: true
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+search:
+    type: insight
+    index_pages: true
+comment:
+    type: giscus
+    repo: june0122/june0122.github.io
+    repoId: MDEwOlJlcG9zaXRvcnkzNjUyNzUyMjQ=
+    category: General
+    categoryId: DIC_kwDOFcWoWM4C6YrQ
+    mapping: pathname
+    strict: false
+    reactionsEnabled: true
+    emitMetadata: false
+    inputPosition: top
+    theme: noborder_light
+    lang: ko
+    lazy: true
+donates: []
+share:
+    type: ''
+sidebar:
+    left:
+        sticky: false
+    right:
+        sticky: false
+widgets:
+    -
+        position: right
+        type: profile
+        author: KAMIYU
+        author_title:
+        location:
+        avatar: https://user-images.githubusercontent.com/39554623/117553944-71251680-b08f-11eb-99bc-0f317fb22422.gif
+        avatar_rounded: true
+        gravatar:
+        follow_link:
+        social_links:
+    -
+        position: right
+        type: categories
+    -
+        position: right
+        type: recent_posts
+    -
+        position: right
+        type: archives
+    -
+        position: right
+        type: tags
+        order_by: -length
+        amount:
+        show_count: true
+plugins:
+    animejs: true
+    back_to_top: true
+    baidu_analytics:
+        tracking_id:
+    busuanzi: true
+    cookie_consent:
+        type: info
+        theme: edgeless
+        static: false
+        position: bottom-left
+        policyLink: https://www.cookiesandyou.com/
+    gallery: true
+    google_analytics:
+        tracking_id: G-Z07MH3Q1NQ
+    katex: false
+    mathjax: false
+    outdated_browser: false
+    pjax: true
+    progressbar: true
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome
