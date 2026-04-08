@@ -173,6 +173,151 @@ body.is-tags-page .tag-toggle-btn {
   display: none;
 }
 
+/* ===== GitHub-style Markdown ===== */
+
+/* Article content scope */
+.article .content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1f2328;
+  word-wrap: break-word;
+}
+
+/* Headings - border bottom on h1, h2 */
+.article .content h1,
+.article .content h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #d1d9e0;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.article .content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Inline code */
+.article .content code:not([class*="hljs"]):not([class*="language-"]) {
+  background-color: rgba(175, 184, 193, 0.2);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+  font-size: 85%;
+  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+/* Code blocks */
+.article .content pre {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  border: 1px solid #d1d9e0;
+}
+
+.article .content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 100%;
+}
+
+/* Blockquote - GitHub blue left bar */
+.article .content blockquote {
+  padding: 0 1em;
+  color: #656d76;
+  border-left: 0.25em solid #d1d9e0;
+  margin: 0 0 16px;
+  background: none;
+}
+
+.article .content blockquote > :first-child {
+  margin-top: 0;
+}
+
+.article .content blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* Tables - GitHub striped style */
+.article .content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  max-width: 100%;
+  overflow: auto;
+  margin: 0 0 16px;
+}
+
+.article .content table th {
+  font-weight: 600;
+  background-color: #f6f8fa;
+}
+
+.article .content table th,
+.article .content table td {
+  padding: 6px 13px;
+  border: 1px solid #d1d9e0;
+}
+
+.article .content table tr {
+  background-color: #fff;
+  border-top: 1px solid #d1d9e0;
+}
+
+.article .content table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/* Links */
+.article .content a {
+  color: #0969da;
+  text-decoration: none;
+}
+
+.article .content a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+.article .content ul,
+.article .content ol {
+  padding-left: 2em;
+  margin-bottom: 16px;
+}
+
+.article .content li + li {
+  margin-top: 0.25em;
+}
+
+/* Horizontal rule */
+.article .content hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #d1d9e0;
+  border: 0;
+  border-radius: 2px;
+}
+
+/* Images */
+.article .content img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* Strong / Bold */
+.article .content strong {
+  font-weight: 600;
+  color: #1f2328;
+}
+
 /* ===== Footer Layout ===== */
 .footer .level-start {
   flex-direction: column;
