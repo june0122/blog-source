@@ -147,3 +147,18 @@ body.is-tags-page .tag-toggle-btn {
   display: none;
 }
 
+/* ===== Footer Layout ===== */
+.footer .level-start {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .footer-logo {
+  margin-bottom: 0.25rem !important;
+}
+
+.footer .level-start p.is-size-7 {
+  margin: 0;
+  line-height: 1.6;
+}
+
