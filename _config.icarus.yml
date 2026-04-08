@@ -89,11 +89,10 @@ comment:
     categoryId: DIC_kwDOFcWoWM4C6YrQ
     mapping: pathname
     strict: false
-    reactionsEnabled: true
+    reactionsEnabled: false
     emitMetadata: false
     inputPosition: top
-    theme: custom
-    customThemeCss: https://june0122.github.io/css/giscus-custom.css
+    theme: noborder_light
     lang: ko
     lazy: true
 donates: []
