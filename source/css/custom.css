@@ -1,3 +1,29 @@
+/* Card hover effects */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Don't lift sidebar widgets or comment card */
+.column-right .card:hover,
+#comments:hover {
+  transform: none;
+}
+
+/* Card image zoom on hover */
+.card .card-image img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-image img {
+  transform: scale(1.03);
+}
+
 /* Fix profile stats centering */
 .card.widget .level .level-item {
   flex-basis: 0;
