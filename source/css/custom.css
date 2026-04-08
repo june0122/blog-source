@@ -10,3 +10,71 @@
 .card.widget .level .level-item .title {
   text-align: center;
 }
+
+/* ===== Comment Section Enhancement ===== */
+
+/* Comment card container */
+#comments {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease;
+}
+
+#comments:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Comment header - hide redundant title (Giscus shows its own) */
+#comments .card-content {
+  padding: 1rem 1.5rem;
+}
+
+#comments .title.is-5 {
+  display: none;
+}
+
+/* Giscus iframe container */
+#comments .giscus {
+  border-radius: 8px;
+}
+
+#comments .giscus-frame {
+  border-radius: 8px;
+}
+
+/* Smooth transition for post navigation before comments */
+.post-navigation {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.post-navigation a {
+  transition: color 0.15s ease;
+}
+
+.post-navigation a:hover {
+  color: #3273dc;
+}
+
+/* Article licensing section spacing */
+.article-licensing {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* Tag pills in article */
+.article-tags .tag {
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  cursor: pointer;
+}
+
+.article-tags .tag:hover {
+  background-color: #3273dc;
+  color: #fff;
+}
