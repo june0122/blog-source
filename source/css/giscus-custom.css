@@ -133,3 +133,8 @@ main .gsc-emoji-button:hover {
 main .gsc-main {
   border: none;
 }
+
+/* Hide "Powered by giscus" */
+.gsc-footer {
+  display: none;
+}
