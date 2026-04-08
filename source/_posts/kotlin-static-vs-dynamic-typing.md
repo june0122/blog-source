@@ -52,7 +52,3 @@ var x = 1
 ## References
 
 -   [https://stackoverflow.com/a/1517670/12364882](https://stackoverflow.com/a/1517670/12364882)
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 6 }
-
-공유하기

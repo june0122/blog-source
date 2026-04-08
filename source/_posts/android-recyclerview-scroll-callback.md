@@ -72,7 +72,3 @@ recyclerView.post {
 -   [https://developer.android.com/guide/components/processes-and-threads](https://developer.android.com/guide/components/processes-and-threads)
 -   [https://stackoverflow.com/a/13840315/12364882](https://stackoverflow.com/a/13840315/12364882)
 -   [https://stackoverflow.com/q/42944005](https://stackoverflow.com/q/42944005)
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 12 }
-
-공유하기

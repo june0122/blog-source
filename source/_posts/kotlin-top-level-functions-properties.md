@@ -103,7 +103,3 @@ const val UNIX_LINE_SEPERATOR = "\n"
 ```java
 public static final String UNIX_LINE_SEPERATOR = "\n";
 ```
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 9 }
-
-공유하기

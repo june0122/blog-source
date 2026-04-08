@@ -1,0 +1,12 @@
+/* Fix profile stats centering */
+.card.widget .level .level-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+.card.widget .level .level-item .heading,
+.card.widget .level .level-item .title {
+  text-align: center;
+}

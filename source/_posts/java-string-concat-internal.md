@@ -257,7 +257,3 @@ StringBuilder : 0.005sec
 -   [https://johngrib.github.io/wiki/jvm-stack/](https://johngrib.github.io/wiki/jvm-stack/)
 -   [https://jinseongsoft.tistory.com/369](https://jinseongsoft.tistory.com/369)
 -   [https://stackoverflow.com/questions/46512888](https://stackoverflow.com/questions/46512888)
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 2 }
-
-공유하기

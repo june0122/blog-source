@@ -267,7 +267,3 @@ Sniper: William
 
 1.  GoF의 디자인 패턴(개정판). 챕터 5. 340쪽
 2.  Hands-on Design Patterns with Kotlin
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 10 }
-
-공유하기

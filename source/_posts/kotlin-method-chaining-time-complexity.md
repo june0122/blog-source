@@ -94,7 +94,3 @@ fun groupAnagramsByProcedure(strs: Array<String>): List<List<String>> {
 
 -   stackoverflow: [Complexity of chaining methods in javascript](https://stackoverflow.com/questions/59800533/)
 -   kotlin in action. 6.3.5 객체의 배열과 원시 타입의 배열. 298p
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 11 }
-
-공유하기

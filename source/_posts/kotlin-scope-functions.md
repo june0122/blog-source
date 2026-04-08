@@ -15,61 +15,15 @@ tags:
 ## Function selection
 
 <!-- more -->
-함수
 
-객체 참조
-
-리턴 값
-
-확장 함수 여부
-
-`let`
-
-`it`
-
-Lambda Result
-
-O
-
-`run`
-
-`this`
-
-Lambda Result
-
-O
-
-`run`
-
-\-
-
-Lambda Result
-
-X
-
-`with`
-
-`this`
-
-Lambda Result
-
-X
-
-`apply`
-
-`this`
-
-Context Object
-
-O
-
-`also`
-
-`it`
-
-Context Object
-
-O
+| 함수 | 객체 참조 | 리턴 값 | 확장 함수 여부 |
+| --- | --- | --- | :---: |
+| `let` | `it` | Lambda Result | O |
+| `run` | `this` | Lambda Result | O |
+| `run` | - | Lambda Result | X |
+| `with` | `this` | Lambda Result | X |
+| `apply` | `this` | Context Object | O |
+| `also` | `it` | Context Object | O |
 
 #### 각 함수가 의도하는 목적
 

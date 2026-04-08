@@ -75,7 +75,3 @@ fun main() {
 
 -   위키피디아 : [https://en.wikipedia.org/wiki/First-class\_citizen](https://en.wikipedia.org/wiki/First-class_citizen)
 -   [https://seungwoohong.tistory.com/15](https://seungwoohong.tistory.com/15)
-
-window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//june0122.tistory.com/reaction'; window.ReactionReqBody = { entryId: 7 }
-
-공유하기
