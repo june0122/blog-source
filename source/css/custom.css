@@ -98,13 +98,14 @@
 .card[data-type="tags"] .card-content::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   left: 0;
   right: 0;
-  height: 80px;
-  background: linear-gradient(rgba(255,255,255,0), #fff 70%);
+  height: 60px;
+  background: linear-gradient(rgba(255,255,255,0), #fff);
   pointer-events: none;
   transition: opacity 0.3s ease;
+  z-index: 1;
 }
 
 .card[data-type="tags"] .card-content.is-expanded::after {
