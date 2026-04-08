@@ -133,3 +133,16 @@
   background: #f6f8fa;
   border-color: #d0d7de;
 }
+
+/* Tags page: show all tags without collapse */
+body.is-tags-page .card[data-type="tags"] .is-grouped-multiline {
+  max-height: none;
+}
+
+body.is-tags-page .card[data-type="tags"] .card-content::after {
+  display: none;
+}
+
+body.is-tags-page .tag-toggle-btn {
+  display: none;
+}

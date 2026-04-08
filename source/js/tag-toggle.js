@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.indexOf('/tags') === 0) return;
+  if (window.location.pathname.indexOf('/tags') === 0) {
+    document.body.classList.add('is-tags-page');
+    return;
+  }
 
   var tagWidget = document.querySelector('.card[data-type="tags"]');
   if (!tagWidget) return;
