@@ -181,6 +181,7 @@ body.is-tags-page .tag-toggle-btn {
   line-height: 1.6;
   color: #1f2328;
   word-wrap: break-word;
+  overflow: visible;
 }
 
 /* Headings - border bottom on h1, h2 */
@@ -208,6 +209,9 @@ body.is-tags-page .tag-toggle-btn {
   border-radius: 6px;
   font-size: 85%;
   font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  vertical-align: baseline;
+  display: inline;
+  line-height: inherit;
 }
 
 /* Code blocks */
@@ -251,7 +255,8 @@ body.is-tags-page .tag-toggle-btn {
   border-spacing: 0;
   width: auto;
   max-width: 100%;
-  overflow: auto;
+  display: block;
+  overflow-x: auto;
   margin: 0 0 16px;
 }
 
