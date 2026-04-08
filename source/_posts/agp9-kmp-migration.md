@@ -11,9 +11,6 @@ tags:
   - migration
 ---
 
-
-# AGP 9.0 마이그레이션 — KMP 프로젝트 구조 재설계
-
 > **요약**
 > Kotlin Multiplatform + Compose Multiplatform 프로젝트를 AGP 8.7.3에서 9.0.0으로 마이그레이션하면서 겪은 과정과 핵심 변경점을 정리한다.
 
