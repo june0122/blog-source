@@ -1,9 +1,14 @@
 hexo.extend.filter.register('after_render:html', function(str) {
   str = str.replace('</head>', '<link rel="stylesheet" href="/css/custom.css"></head>');
-  // Remove "Powered by Hexo & Icarus" from footer
-  str = str.replace(/\s*Powered by <a[^>]*>Hexo<\/a>\s*&amp;\s*<a[^>]*>Icarus<\/a>/g, '');
-  // Remove auto-generated "© YEAR KAMIYU" (keep the manual one from config)
-  str = str.replace(/<span>&copy; \d{4} KAMIYU<\/span>/g, '');
+
+  // Rebuild footer level-start: logo → copyright → visitor count (tight spacing)
+  var footerNew = '<div class="level-start">'
+    + '<a class="footer-logo is-block" href="/"><img src="/img/logo.svg" alt="카미유 테크 블로그" height="28"></a>'
+    + '<p class="is-size-7" style="margin:0.25rem 0 0">&copy; 2021 KAMIYU</p>'
+    + '<p class="is-size-7" style="margin:0"><span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv">0</span>명의 사용자가 방문 함</span></p>'
+    + '</div>';
+  str = str.replace(/<div class="level-start">.*?<\/div>(?=<div class="level-end">)/s, footerNew);
+
   str = str.replace('</body>', '<script src="/js/tag-toggle.js" defer></script></body>');
   return str;
 });
