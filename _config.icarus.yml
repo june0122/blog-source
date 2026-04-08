@@ -94,7 +94,7 @@ comment:
     inputPosition: top
     theme: noborder_light
     lang: ko
-    lazy: true
+    lazy: false
 donates: []
 share:
     type: ''
